@@ -87,7 +87,6 @@ h1, h2 {
     from{
         transform: scale(1);
     }
-
     to{
         transform: scale(1.1);
     }
@@ -278,13 +277,20 @@ footer {
         padding: 0;
     }
 
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
     hr {
         display: none;
     }
 }
 
 /* For medium screen sizes from 950px wide and down */
-@media screen and (max-width:950px) {
+@media screen and (max-width: 950px) {
     
     #menu {
         clear: left;
